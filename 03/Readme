@@ -1,0 +1,4 @@
+#####Assignment Logic Gate ###############
+###LogicGate.py cointains class logic gate and 5 diffrent methods and_gate,or_gate,nand_gate,xor_gate,nor_gate
+###module.py cointains implementation of this logic gate class
+###module3.ipynb cointains implementation of class logic gate with diffrent test cases
