@@ -1,1 +1,4 @@
-
+Digit folder cointains digit images
+mnist.py has mnist class in it
+module5-3.py has the implementation of mnist class, which can be called from command line
+module5-3.ipynb has implementation of all function used in mnist class
