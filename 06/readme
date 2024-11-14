@@ -1,1 +1,7 @@
+Here’s a concise summary:
 
+- **activation.py**: Contains activation functions.
+- **errors.py**: Holds cost functions.
+- **layers.py**: Contains forward and backward layers.
+- **raokhande_mnist_entire_model.pkl**: Stores model weights.
+- **train.py**: Manages model training.
