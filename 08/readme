@@ -1,1 +1,18 @@
+le_net.py
+Implements the LeNet class with functions for:
+Building (_create_lenet()), compiling (_compile()), and training (train()) the CNN model.
+Saving (save()) and loading (load()) the trained model.
+Predicting (predict()) digit labels for input images.
 
+module8.py
+Uses the trained model from le_net.py to classify handwritten digit images.
+Takes two arguments:
+Image file path.
+Expected digit.
+Outputs success or failure based on the prediction.
+
+module8.ipynb
+Jupyter Notebook demonstrating:
+Training the LeNet model.
+Saving and loading the trained model.
+Testing the model with handwritten digit images.
