@@ -116,3 +116,29 @@ class DogsCats:
         plt.axis('off')
         plt.show()
         print(f'Prediction: {predicted_class}')
+def main():
+    dogs_cats = DogsCats()
+
+    Create validation dataset (0-2399)
+    dogs_cats.make_dataset_folders('validation', 0, 2400)
+
+    # Create training dataset (2400-11999)
+    dogs_cats.make_dataset_folders('train', 2400, 12000)
+
+    # Create testing dataset (12000-12499)
+    dogs_cats.make_dataset_folders('test', 12000, 12500)
+
+    # Generate datasets
+    dogs_cats.make_dataset()
+
+    # Build, train, and test the model
+    dogs_cats.build_network()
+    dogs_cats.train(model_name="saurabh_raokhande_dogs_cats_model")
+
+    # Example prediction
+    test_image_path = 'D:\\patrn\\dogs-vs-cats-original\\test1\\test1\\1.jpg'  # Replace with the path to a test image
+    dogs_cats.predict(test_image_path)
+
+if __name__ == "__main__":
+    main()
+
