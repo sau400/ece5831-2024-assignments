@@ -1,1 +1,4 @@
-
+imdb.py has the movie rating data with all function encapsulated
+boston_housing has the boston data with all function encapsulated 
+reuters has the newspaper data having magzine headline with all function encapsulated 
+module11.ipynb has the implementation for above classes 
